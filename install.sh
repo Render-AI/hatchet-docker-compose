@@ -1,2 +1,2 @@
 bash docker.install.sh
-bash hastchet.production.start.sh
+bash hatchet.production.start.sh
