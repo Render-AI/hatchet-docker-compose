@@ -103,7 +103,7 @@ services:
   caddy:
     image: caddy:2.7.6-alpine
     ports:
-      - 8080:8080
+      - 8090:8080
     volumes:
       - ./Caddyfile:/etc/caddy/Caddyfile
  

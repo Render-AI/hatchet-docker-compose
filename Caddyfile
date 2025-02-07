@@ -1,6 +1,6 @@
 http://localhost:8080 {
 	handle /api/* {
-		reverse_proxy hatchet-api:8080
+		reverse_proxy hatchet-api:8090
 	}
 	handle /* {
 		reverse_proxy hatchet-frontend:80
