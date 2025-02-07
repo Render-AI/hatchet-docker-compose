@@ -1,1 +1,1 @@
-docker compose -f docker-compose-hatchet.dev.yaml up
+ docker compose -f docker-compose-hatchet.production.yaml up -d
